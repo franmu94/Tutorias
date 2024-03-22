@@ -26,5 +26,9 @@ final class CharacterLogic {
         }
     }
     
+    func getCharacter(indexPath: IndexPath) -> CharacterModel {
+        return characters[indexPath.row]
+    }
+    
     
 }
