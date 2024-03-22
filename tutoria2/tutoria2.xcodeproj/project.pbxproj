@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA4A8092BADE5F50072B834 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4A8082BADE5F50072B834 /* CharacterTableViewController.swift */; };
+		5FA4A80B2BADE7910072B834 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4A80A2BADE7910072B834 /* CharacterCell.swift */; };
+		5FA4A80D2BADF0EE0072B834 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4A80C2BADF0EE0072B834 /* CharacterDetailViewController.swift */; };
 		D3679DB92BA9F2BD004508E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3679DB82BA9F2BD004508E3 /* AppDelegate.swift */; };
 		D3679DBB2BA9F2BD004508E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3679DBA2BA9F2BD004508E3 /* SceneDelegate.swift */; };
-		D3679DBD2BA9F2BD004508E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3679DBC2BA9F2BD004508E3 /* ViewController.swift */; };
 		D3679DC02BA9F2BD004508E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3679DBF2BA9F2BD004508E3 /* Base */; };
 		D3679DC22BA9F2BF004508E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3679DC12BA9F2BF004508E3 /* Assets.xcassets */; };
 		D3679DC52BA9F2BF004508E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D3679DC42BA9F2BF004508E3 /* Base */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FA4A8082BADE5F50072B834 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		5FA4A80A2BADE7910072B834 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		5FA4A80C2BADF0EE0072B834 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
 		D3679DB52BA9F2BD004508E3 /* tutoria2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutoria2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3679DB82BA9F2BD004508E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3679DBA2BA9F2BD004508E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3679DBC2BA9F2BD004508E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3679DBF2BA9F2BD004508E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3679DC12BA9F2BF004508E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3679DC42BA9F2BF004508E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,13 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				D3679DBE2BA9F2BD004508E3 /* Main.storyboard */,
-				D3679DBC2BA9F2BD004508E3 /* ViewController.swift */,
+				5FA4A80C2BADF0EE0072B834 /* CharacterDetailViewController.swift */,
+				5FA4A8082BADE5F50072B834 /* CharacterTableViewController.swift */,
 				D3679DD62BAA0669004508E3 /* Logic */,
 				D3679DD32BA9FD75004508E3 /* Interactor */,
 				D3679DCE2BA9F40C004508E3 /* Model */,
 				D3679DCD2BA9F3E1004508E3 /* Resources */,
 				D3679DC12BA9F2BF004508E3 /* Assets.xcassets */,
 				D3679DCC2BA9F33D004508E3 /* System */,
+				5FA4A80A2BADE7910072B834 /* CharacterCell.swift */,
 			);
 			path = tutoria2;
 			sourceTree = "<group>";
@@ -192,9 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3679DD52BA9FDBB004508E3 /* RickMortyInteractor.swift in Sources */,
+				5FA4A8092BADE5F50072B834 /* CharacterTableViewController.swift in Sources */,
 				D3679DD22BA9F53B004508E3 /* RickMortyModel.swift in Sources */,
-				D3679DBD2BA9F2BD004508E3 /* ViewController.swift in Sources */,
+				5FA4A80B2BADE7910072B834 /* CharacterCell.swift in Sources */,
 				D3679DB92BA9F2BD004508E3 /* AppDelegate.swift in Sources */,
+				5FA4A80D2BADF0EE0072B834 /* CharacterDetailViewController.swift in Sources */,
 				D3679DFC2BAB510B004508E3 /* CharacterLogic.swift in Sources */,
 				D3679DBB2BA9F2BD004508E3 /* SceneDelegate.swift in Sources */,
 			);
